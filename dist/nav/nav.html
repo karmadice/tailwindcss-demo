@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="../css/main.css">
     <title>Tailwind css</title>
 </head>
-<body>
-    <p class="text-pink-500">Hello there</p>
-</body>
+<body class="bg-gray-200">
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+        <div class="flex-1 flex justify-between items-center">
+              <a href="#">
+                <svg width="32" height="36" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5" />
+                  </svg>
+              </a>
+            </div>
+            <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+                <nav>
+                    <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="#">Home</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="#">About Us</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="#">Contact Us</a></li>
+                        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400" href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+      </header>  
+</body> 
+
 </html>
