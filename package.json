@@ -1,8 +1,24 @@
 {
-  "name": "js-atgmpu",
-  "version": "0.0.0",
-  "private": true,
+  "name": "tailwindcss-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/css/style.css -o dist/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmadice/tailwindcss-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmadice/tailwindcss-demo/issues"
+  },
+  "homepage": "https://github.com/karmadice/tailwindcss-demo#readme",
   "dependencies": {
-    "tailwindcss": "^1.0.5"
+    "tailwindcss": "^2.0.3"
   }
 }
